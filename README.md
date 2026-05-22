@@ -13,6 +13,8 @@ Every AI agent framework inherits this problem. Claude Code, OpenClaw, Prefect, 
 
 Built on [rrule-temporal](https://github.com/ggaabe/rrule-temporal) (RFC 5545 compliant, TC39 Temporal API).
 
+Need help fixing a production scheduler? I offer a fixed-scope [$1,000 timezone scheduler audit](AUDIT.md).
+
 ## Install
 
 ```bash
