@@ -18,8 +18,10 @@ Need help fixing a production scheduler? I offer a fixed-scope [$1,000 timezone 
 ## Install
 
 ```bash
-npm install rrule-kit
+npm install github:iankar8/rrule-kit
 ```
+
+The `rrule-kit` package name is not published to npm yet. Until it is, install directly from GitHub.
 
 ## The Problem
 
