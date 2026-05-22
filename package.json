@@ -7,14 +7,14 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/index.js"
     },
     "./agent": {
+      "types": "./dist/agent.d.ts",
       "import": "./dist/agent.mjs",
-      "require": "./dist/agent.js",
-      "types": "./dist/agent.d.ts"
+      "require": "./dist/agent.js"
     }
   },
   "files": ["dist"],
@@ -28,7 +28,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iankar/rrule-kit"
+    "url": "https://github.com/iankar8/rrule-kit"
   },
   "dependencies": {
     "@js-temporal/polyfill": "^0.5.1",
