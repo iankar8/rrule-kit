@@ -2,6 +2,8 @@
 
 If your agent, workflow, or calendar product has recurring jobs that fire at the wrong local time, duplicate around DST, or skip silently after restarts, I can do a fixed-fee audit.
 
+The core failure modes are documented in [PROOF.md](PROOF.md).
+
 ## Fixed Scope
 
 **Price:** $1,000 flat  

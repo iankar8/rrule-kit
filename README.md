@@ -15,6 +15,8 @@ Built on [rrule-temporal](https://github.com/ggaabe/rrule-temporal) (RFC 5545 co
 
 Need help fixing a production scheduler? I offer a fixed-scope [$1,000 timezone scheduler audit](AUDIT.md).
 
+Want the short version of what is tested? See the [proof cases](PROOF.md).
+
 ## Install
 
 ```bash
