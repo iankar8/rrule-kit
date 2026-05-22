@@ -10,6 +10,16 @@ The core failure modes are documented in [PROOF.md](PROOF.md).
 **Turnaround:** 48 hours after I have a repro, repo access, or enough implementation detail  
 **Contact:** [email Ian](mailto:ian@iankar.com?subject=Timezone%20scheduler%20audit) or [open an audit request](https://github.com/iankar8/rrule-kit/issues/new?template=audit-request.yml)
 
+## How To Buy
+
+1. Send the smallest safe repro or open an audit request.
+2. I confirm whether the problem fits this fixed scope.
+3. You confirm the $1,000 scope in writing.
+4. I send an invoice before starting.
+5. I deliver the memo, patch plan, and test cases within 48 hours of having the materials.
+
+If the issue is not a fit, I will say so before invoicing.
+
 ## What You Get
 
 - A reproduction of the current scheduler/timezone failure mode, or a written note if the failure is architectural rather than reproducible from the provided materials.
@@ -41,4 +51,4 @@ Email the smallest useful packet or open an [audit request](https://github.com/i
 - The scheduler library or runtime involved.
 - Any existing test, issue, or log excerpt that shows the failure.
 
-If the problem is a fit, I will reply with the exact scope and payment/invoice step before starting.
+If the problem is a fit, I will reply with the exact scope and payment/invoice step before starting. To invoice, I need the billing name, billing email, and any purchase-order or vendor details you require.
