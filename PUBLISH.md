@@ -3,7 +3,7 @@
 `rrule-kit` is currently installable from GitHub:
 
 ```bash
-npm install github:iankar8/rrule-kit#v0.1.0
+npm install github:iankar8/rrule-kit#v0.1.1
 ```
 
 The npm package name is available as of 2026-05-22, but this machine is not authenticated to npm.

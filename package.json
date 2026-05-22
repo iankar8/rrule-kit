@@ -1,6 +1,6 @@
 {
   "name": "rrule-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Timezone-correct RRULE scheduling for AI agents. Drop-in rrule replacement + agent scheduling primitives.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -17,14 +17,27 @@
       "require": "./dist/agent.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup && tsc --emitDeclarationOnly --declaration --outDir dist",
+    "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run build",
     "test": "vitest run",
     "test:watch": "vitest"
   },
-  "keywords": ["rrule", "timezone", "scheduling", "ai-agents", "recurring", "ical", "rfc5545", "cron", "temporal"],
+  "keywords": [
+    "rrule",
+    "timezone",
+    "scheduling",
+    "ai-agents",
+    "recurring",
+    "ical",
+    "rfc5545",
+    "cron",
+    "temporal"
+  ],
   "author": "Ian Kar",
   "license": "MIT",
   "repository": {
