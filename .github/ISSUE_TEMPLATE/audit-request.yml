@@ -1,0 +1,78 @@
+name: Timezone scheduler audit
+description: Request a fixed-scope $1,000 scheduler/timezone audit.
+title: "Audit request: "
+labels: ["audit-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for the fixed-scope audit described in [AUDIT.md](../../AUDIT.md).
+
+        Price: $1,000 flat. Turnaround: 48 hours after enough implementation detail is available.
+
+        Do not include secrets, private logs, credentials, or sensitive production data in this issue. If the implementation is private, share only the smallest useful public repro here and email the private details separately.
+  - type: input
+    id: product
+    attributes:
+      label: Product or project
+      description: What scheduler, agent system, workflow product, or calendar code is affected?
+      placeholder: "Example: Agent routines scheduler in <product>"
+    validations:
+      required: true
+  - type: textarea
+    id: intended
+    attributes:
+      label: Intended schedule semantics
+      description: What should happen in local wall-clock terms?
+      placeholder: "Example: Run every weekday at 9:00 AM America/New_York, including after DST changes."
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed failure
+      description: What fires at the wrong time, duplicates, skips, or drifts?
+      placeholder: "Example: Job fires at 9:00 UTC instead of 9:00 local, then shifts by one hour after DST."
+    validations:
+      required: true
+  - type: input
+    id: expression
+    attributes:
+      label: Schedule expression
+      description: Cron, RRULE, interval config, or relevant scheduling input.
+      placeholder: "0 9 * * MON-FRI or FREQ=DAILY;BYHOUR=9"
+    validations:
+      required: false
+  - type: input
+    id: timezone
+    attributes:
+      label: Timezone
+      description: IANA timezone if known.
+      placeholder: "America/New_York"
+    validations:
+      required: false
+  - type: input
+    id: stack
+    attributes:
+      label: Stack / scheduler library
+      description: Runtime, language, framework, or scheduling library involved.
+      placeholder: "Node, Python, Go, Temporal, croniter, robfig/cron, rrule, etc."
+    validations:
+      required: false
+  - type: textarea
+    id: materials
+    attributes:
+      label: Useful materials
+      description: Link to a public repro, issue, test case, or non-sensitive logs.
+      placeholder: "Link or paste the smallest safe excerpt."
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I understand this is a paid fixed-scope $1,000 audit request, not a general open-source support issue.
+          required: true
+        - label: I have not included secrets, credentials, or sensitive production data.
+          required: true

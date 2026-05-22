@@ -6,7 +6,7 @@ If your agent, workflow, or calendar product has recurring jobs that fire at the
 
 **Price:** $1,000 flat  
 **Turnaround:** 48 hours after I have a repro, repo access, or enough implementation detail  
-**Contact:** [ian@iankar.com](mailto:ian@iankar.com)
+**Contact:** [email Ian](mailto:ian@iankar.com?subject=Timezone%20scheduler%20audit) or [open an audit request](https://github.com/iankar8/rrule-kit/issues/new?template=audit-request.yml)
 
 ## What You Get
 
@@ -31,7 +31,7 @@ If your agent, workflow, or calendar product has recurring jobs that fire at the
 
 ## What To Send
 
-Email the smallest useful packet:
+Email the smallest useful packet or open an [audit request](https://github.com/iankar8/rrule-kit/issues/new?template=audit-request.yml):
 
 - The cron/RRULE/schedule expression.
 - The intended timezone semantics.
